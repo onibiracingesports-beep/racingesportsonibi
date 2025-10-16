@@ -1,1 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Onibi Racing Esports</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
 
+  <!-- Header -->
+  <header>
+    <div class="logo">Onibi Racing Esports</div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#sobre">Sobre Nosotros</a></li>
+        <li><a href="#equipos">Ligas</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+        <li><a href="https://www.drksports.com/tienda-general/Camiseta-Tecnica-Onibi-eSports-p776436572/">Tienda</a></li>
+      </ul>
+    </nav>
+    <div class="burger">&#9776;</div>
+  </header>
+
+  <!-- INICIO -->
+  <section id="inicio" class="section-bg" style="background-image: url('https://pbs.twimg.com/profile_banners/1556577584497950721/1754667654/1500x500');">
+    <div class="content">
+      <h1>Bienvenido a Onibi Racing Esports</h1>
+      <p><h1>#LaRevolución</h1></p>
+      <p>Un nuevo equipo de F1 y Assetto Corsa en auge.</p>
+    </div>
+  </section>
+
+  <!-- SOBRE NOSOTROS -->
+  <section id="sobre" class="section-bg" style="background-image: url('https://pbs.twimg.com/media/G2HvZiFWUAAB2o5?format=jpg&name=large');">
+    <div class="content">
+      <h2>¿Quiénes somos?</h2>
+      <p>Onibi Racing Esports es un equipo en auge dedicado a las competiciones de simracing e esports. Competimos a nivel nacional e internacional en diversas categorías, destacando en F1 y desarrollando nuestra base en Assetto Corsa.</p>
+    </div>
+  </section>
+
+  <!-- LIGAS -->
+  <section id="equipos" class="section-bg" style="background-image: url('https://cdn.pixabay.com/photo/2018/08/03/16/51/ferrari-3582274_1280.jpg');">
+    <div class="content">
+      <h2>Ligas más importantes</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>VR</h3>
+          <p>Una liga de gran nivel con 5 divisiones y premios importantes.</p>
+        </div>
+        <div class="card">
+          <h3>CSS y FOR</h3>
+          <p>Dos grandes ligas donde han competido pilotos que llegaron a las esports.</p>
+        </div>
+        <div class="card">
+          <h3>Proyectos</h3>
+          <p>Compitiendo en ERC y otras series de resistencia emblemáticas.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section id="contacto" class="section-bg contact-section">
+    <div class="content">
+    <h2>Contacto</h2>
+     <form action="https://formspree.io/f/mgvnpwoj" method="POST">
+        <p><label for="nombre">Nombre:</label></p>
+        <input type="text" id="nombre" name="nombre" required />
+
+        <label for="correo">Correo electrónico:</label>
+        <input type="email" id="correo" name="correo" required />
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>@Onibi Racing Esports on X, INSTA AND TIK TOK</p>
+  </footer>
+  <script src="script.js"></script>
+  </body>
+</html>
